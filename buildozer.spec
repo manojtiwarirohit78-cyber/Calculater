@@ -9,15 +9,14 @@ source.include_exts = py,png,jpg,kv,atlas
 
 version = 0.1
 
-requirements = python3,kivy==2.3.1,cython==3.0.11
+requirements = python3,kivy==2.3.1
 
 orientation = portrait
-osx.kivy_version = 2.3.1
 fullscreen = 1
 
 android.archs = arm64-v8a,armeabi-v7a
 android.allow_backup = True
-android.api = 33
+android.api = 35
 android.minapi = 24
 android.ndk_api = 24
 android.private_storage = True
